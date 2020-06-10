@@ -29,3 +29,9 @@ blog:
 home 
 sign in
 contact
+
+
+relations:
+    -one to many    [author - posts]    foreginkey
+    -many to many   [ user - groups]    
+    -one to one     [user - profile]
